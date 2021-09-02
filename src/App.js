@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 
 let name="rayyan";
-let navbarTitle="TextUtility"
 function App() {
   return (
     // <>
@@ -27,7 +26,7 @@ function App() {
     // </div>
     // </>
     <>
-    <Navbar title={navbarTitle}></Navbar>
+    <Navbar></Navbar>
     </>
     
   );
