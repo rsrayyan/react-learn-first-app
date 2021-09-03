@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import TextForms from './components/TextForms';
 
 let name="rayyan";
 let navbarTitle="TextUtility"
@@ -28,6 +29,7 @@ function App() {
     // </>
     <>
     <Navbar title={navbarTitle}></Navbar>
+    <TextForms textBoxHeading="simple text utility providers"></TextForms>
     </>
     
   );
